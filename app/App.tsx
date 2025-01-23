@@ -1,7 +1,11 @@
+import ButtonGoHome from "./components/ButtonGoHome"
 function App() {
   return (
     <div>
-      <p>Bem vindo ao meu Template</p>
+      <ButtonGoHome 
+        isLogin={false}
+      />
+      
     </div>
   )
 }
