@@ -12,7 +12,7 @@ const ButtonGoHome:React.FC<Props> = ({
     return(
         <S.Container>
             <S.Button 
-                $backgroundImage={icon}
+                $backgroundImage={icon} $islogin={true}
             />
         </S.Container>
     ) 
